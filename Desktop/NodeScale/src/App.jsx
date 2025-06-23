@@ -9,9 +9,9 @@ function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col bg-black text-white">
       {/* Header */}
-      <header className="w-full flex flex-wrap items-center justify-between px-4 sm:px-6 py-3 sm:py-4 border-b border-zinc-800 bg-black/80 sticky top-0 z-20">
+      <header className="w-full flex flex-wrap items-center justify-between px-2 sm:px-6 py-3 sm:py-4 border-b border-zinc-800 bg-black/80 sticky top-0 z-20">
         <div className="flex flex-wrap items-center w-full sm:w-auto min-w-0 gap-4 sm:gap-8">
-          <a href="#" className="flex items-center hover:opacity-80 transition-opacity min-w-0 flex-shrink-0">
+          <a href="#" className="flex items-center hover:opacity-80 transition-opacity min-w-0 flex-shrink-0 -ml-2 sm:ml-0">
             <img
               src="/logo.png"
               alt="NodeScale Logo"
