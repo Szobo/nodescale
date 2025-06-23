@@ -10,8 +10,8 @@ function LandingPage() {
     <div className="min-h-screen flex flex-col bg-black text-white">
       {/* Header */}
       <header className="w-full flex flex-wrap items-center justify-between px-4 sm:px-6 py-3 sm:py-4 border-b border-zinc-800 bg-black/80 sticky top-0 z-20">
-        <div className="flex items-center gap-4 sm:gap-8 min-w-0">
-          <a href="#" className="flex items-center hover:opacity-80 transition-opacity min-w-0">
+        <div className="flex flex-wrap items-center w-full sm:w-auto min-w-0 gap-4 sm:gap-8">
+          <a href="#" className="flex items-center hover:opacity-80 transition-opacity min-w-0 flex-shrink-0">
             <img
               src="/logo.png"
               alt="NodeScale Logo"
@@ -26,7 +26,7 @@ function LandingPage() {
             <a href="#faq" className="hover:text-[#6133e6] transition">FAQ</a>
           </nav>
         </div>
-        <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 items-stretch sm:items-center w-full sm:w-auto mt-3 sm:mt-0">
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 items-stretch sm:items-center w-full sm:w-auto mt-3 sm:mt-0 basis-auto min-w-0">
           <a href={googleFormUrl} target="_blank" rel="noopener noreferrer" className="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-4 py-2 rounded-full transition-all duration-300 text-sm sm:text-base w-full sm:w-auto text-center whitespace-nowrap">Get Started</a>
           <div className="relative w-full sm:w-auto">
             <button
